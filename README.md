@@ -1,7 +1,7 @@
 # AFM-IR-spectra-smoothening
 
 **[Purpose]** 
-<br> This script was created to smoothen the AFM-IR spectra from the chip switch. The QCL laser in Bruker Icon-IR consist of four chips, each covering four different ranges of wavenumbers. The chip switch occurs at ~991, 1212, 1433 cm-1. Even though the tilt mirror calibration is perfect at IR reference (PMMA), the data point discrepancies are inevitable often due to your sample surface geometry, tip draft, etc.       **[Contact]** Jongcheol Lee (jongcheol1422@gmail.com) 2024.02.25
+<br> This script was created to smoothen the gap in AFM-IR spectra from laser chip switch. The QCL laser in Bruker Icon-IR consist of four chips, each covering four different ranges of wavenumbers. The chip switch occurs at ~991, 1212, 1433 cm-1. Even though the tilt mirror calibration is perfect at IR reference (PMMA), the data point discrepancies are inevitable often due to your sample surface geometry, tip draft, etc.       **[Contact]** Jongcheol Lee (jongcheol1422@gmail.com) 2024.02.25
 <p align="center">
   <img width="800" src="https://github.com/JasonL1422/AFM-IR-spectra-smoothening/blob/main/etc/Fig2.png">
 </p>
