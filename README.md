@@ -19,6 +19,6 @@
 -	The operation applies to all spectra in the initial .csv file and generate smoothened spectra in a separate .xlsx file. 
 -	The script also produces plots (it may ask you to install something for plotting). The three or four vertical gray lines are where the intensity numbers were flattened.
 -	The input data should be in a certain format (column, row). The given sample is as it is from Nanoscope software from Bruker. If your data are from different software, it should be adjusted manually. Please open the sample.csv. and check.
--	Users are encouraged to try both versions according to their case and select the proper ‘start’ wavenumbers to minimize the data misuse. The data/peak interpretation near those numbers could be unreliable. 
+-	Users are encouraged to try both versions according to their case and select the proper ‘start’ wavenumbers to minimize the data misuse. The data/peak interpretation near those numbers could be unreliable.
 
 
