@@ -2,6 +2,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 
 # Load the CSV data
 data = pd.read_csv('sample.csv')
@@ -32,6 +33,9 @@ def plot_single_pair_with_vertical_line(raw_data, smoothed_data, spectrum_index,
     plt.ylabel('Intensity (mV)')
     plt.legend()
     plt.title(f'Comparison of Raw and Smoothed Spectrum {spectrum_index + 1} with Start Lines')
+    ax = plt.gca()  # Get the current axes
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(100))
+    ax.xaxis.set_minor_locator(ticker.MultipleLocator(50))
     plt.show()
 
 # Plot all raw data across all spectra
@@ -50,6 +54,9 @@ def plot_all_raw_data(raw_data, num_spectra):
     plt.ylabel('Intensity (mV)')
     plt.title('All Raw Spectra')
     plt.legend()
+    ax = plt.gca()  # Get the current axes
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(100))
+    ax.xaxis.set_minor_locator(ticker.MultipleLocator(50))
     plt.savefig('All_Raw_Spectra.png', dpi=300)  # Save the figure to a file
     plt.show()
 
@@ -69,6 +76,9 @@ def plot_all_smoothed_data(smoothed_data, num_spectra):
     plt.ylabel('Intensity (mV)')
     plt.title('All Smoothed Spectra')
     plt.legend()
+    ax = plt.gca()  # Get the current axes
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(100))
+    ax.xaxis.set_minor_locator(ticker.MultipleLocator(50))
     plt.savefig('All_Smoothed_Spectra.png', dpi=300)  # Save the figure to a file    
     plt.show()
     
