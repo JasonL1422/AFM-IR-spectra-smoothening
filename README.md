@@ -1,5 +1,8 @@
 # AFM-IR-spectra-smoothening
 
+* This has been used in a research paper published in _Planta_: **J. Lee**, et al. Microfibril orientation and compositional heterogeneity in fiber and vessel cell walls of poplar xylem studied by AFM-IR and SFG spectroscopy. _Planta_ **2026**, _263_, 77 DOI: [10.1007/s00425-026-04947-7](https://link.springer.com/article/10.1007/s00425-026-04947-7)
+
+
 **[Purpose]** 
 <br> To smoothen the AFM-IR spectra due to the laser chip switch at 990, 1210, 1434. The QCL laser in Bruker Icon-IR consist of four chips, each covering four different ranges of wavenumbers. Even though the tilt mirror is calibrated at IR reference (PMMA), the data point discrepancies are inevitable  due to your sample surface geometry, tip draft, etc.
 <p align="center">
